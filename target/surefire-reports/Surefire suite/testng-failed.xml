@@ -6,8 +6,8 @@
       <class name="com.saucedemo.testcases.BaseTest">
         <methods>
           <include name="setUp"/>
-          <include name="testBaseScenario"/>
           <include name="tearDown"/>
+          <include name="testBaseScenario"/>
         </methods>
       </class> <!-- com.saucedemo.testcases.BaseTest -->
     </classes>

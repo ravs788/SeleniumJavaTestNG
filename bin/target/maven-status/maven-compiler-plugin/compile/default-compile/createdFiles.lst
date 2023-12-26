@@ -1,0 +1,7 @@
+com/saucedemo/pages/UserDetailsPage.class
+com/saucedemo/pages/CheckoutPage.class
+com/saucedemo/pages/HomePage.class
+com/saucedemo/pages/PaymentsPage.class
+com/saucedemo/pages/OrderVerificationPage.class
+com/saucedemo/pages/LogoutPage.class
+com/saucedemo/pages/LoginPage.class
