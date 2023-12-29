@@ -1,0 +1,21 @@
+<Configuration status="warn">
+    <Appenders>
+        <!-- Console appender configuration -->
+        <Console name="console" target="SYSTEM_OUT">
+            <PatternLayout pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n" />
+        </Console>
+        <File name="file" filename=".target/logfile.log" append=true>
+<PatternLayout>
+<pattern>pattern="%d{yyyy-MM-dd HH:mm:ss} %-5p %c{1}:%L - %m%n"</pattern>
+</PatternLayout>
+</File>
+</Appenders>
+<Loggers>
+<Logger name="com.saucedemo" level="info" additivity="false">
+            <AppenderRef ref="console" />
+        </Loggers>
+        <root level="info">
+            <appender-ref ref="console" />
+        </root>
+    </Loggers>
+</Configuration>
