@@ -1,7 +1,11 @@
+/Users/ravishankar/Desktop/Learning/Testing/SeleniumJavaTestNG/testsolution/src/main/java/com/saucedemo/utilities/ExcelUtility.java
 /Users/ravishankar/Desktop/Learning/Testing/SeleniumJavaTestNG/testsolution/src/main/java/com/saucedemo/pages/OrderVerificationPage.java
 /Users/ravishankar/Desktop/Learning/Testing/SeleniumJavaTestNG/testsolution/src/main/java/com/saucedemo/pages/PaymentsPage.java
 /Users/ravishankar/Desktop/Learning/Testing/SeleniumJavaTestNG/testsolution/src/main/java/com/saucedemo/pages/LoginPage.java
+/Users/ravishankar/Desktop/Learning/Testing/SeleniumJavaTestNG/testsolution/src/main/java/com/saucedemo/utilities/ConfigFileReader.java
+/Users/ravishankar/Desktop/Learning/Testing/SeleniumJavaTestNG/testsolution/src/main/java/com/saucedemo/utilities/LoggerUtil.java
 /Users/ravishankar/Desktop/Learning/Testing/SeleniumJavaTestNG/testsolution/src/main/java/com/saucedemo/pages/CheckoutPage.java
 /Users/ravishankar/Desktop/Learning/Testing/SeleniumJavaTestNG/testsolution/src/main/java/com/saucedemo/pages/LogoutPage.java
 /Users/ravishankar/Desktop/Learning/Testing/SeleniumJavaTestNG/testsolution/src/main/java/com/saucedemo/pages/UserDetailsPage.java
+/Users/ravishankar/Desktop/Learning/Testing/SeleniumJavaTestNG/testsolution/src/main/java/com/saucedemo/utilities/ElementActions.java
 /Users/ravishankar/Desktop/Learning/Testing/SeleniumJavaTestNG/testsolution/src/main/java/com/saucedemo/pages/HomePage.java

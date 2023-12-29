@@ -3,6 +3,8 @@ package com.saucedemo.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import com.saucedemo.utilities.ElementActions;
+
 public class LoginPage {
 
     private WebDriver _driver;
@@ -22,17 +24,17 @@ public class LoginPage {
             
     
     public void login(String userName, String passWord) {
-        _driver.findElement(username).sendKeys(userName);
-        _driver.findElement(password).sendKeys(passWord);
-        _driver.findElement(loginButton).click();
+        ElementActions.EnterData(_driver.findElement(username),userName);
+        ElementActions.EnterData(_driver.findElement(password),passWord);
+        ElementActions.Click(_driver.findElement(loginButton));
     }
 
     public boolean isLoginSuccessful() {
-        return _driver.findElement(swagLabsIcon).isDisplayed();
+        return ElementActions.IsDisplayed(_driver.findElement(swagLabsIcon));
     }
 
     public boolean isLoginPageLaunched() {
-        return _driver.findElement(verifyLoginPage).isDisplayed();
+        return ElementActions.AreDisplayed(_driver.findElements(verifyLoginPage));
     }
 
 }

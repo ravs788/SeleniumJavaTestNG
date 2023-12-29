@@ -1,7 +1,10 @@
 package com.saucedemo.pages;
 
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+
+import com.saucedemo.utilities.ElementActions;
 
 public class UserDetailsPage {
     private WebDriver _driver;
@@ -16,10 +19,9 @@ public class UserDetailsPage {
     By continueButton = By.id("continue");
 
     public void enterUserDetails(String firstNameData, String lastNameData, String postalCodeData) {
-        _driver.findElement(firstName).sendKeys(firstNameData);
-        _driver.findElement(lastName).sendKeys(lastNameData);
-        _driver.findElement(postalCode).sendKeys(postalCodeData);
-        _driver.findElement(continueButton).click();
+        ElementActions.EnterData(_driver.findElement(firstName), firstNameData);
+        ElementActions.EnterData(_driver.findElement(lastName), lastNameData);
+        ElementActions.EnterData(_driver.findElement(postalCode), postalCodeData);
+        ElementActions.Click(_driver.findElement(continueButton));
     }
-
 }

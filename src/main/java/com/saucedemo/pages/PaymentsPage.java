@@ -3,6 +3,8 @@ package com.saucedemo.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import com.saucedemo.utilities.ElementActions;
+
 public class PaymentsPage {
     private WebDriver _driver;
 
@@ -13,6 +15,6 @@ public class PaymentsPage {
     By finishButton = By.id("finish");
     
     public void finishOrder() {
-        _driver.findElement(finishButton).click();
+        ElementActions.Click(_driver.findElement(finishButton));
     }
 }

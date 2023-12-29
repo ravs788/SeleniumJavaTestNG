@@ -1,7 +1,12 @@
 package com.saucedemo.pages;
 
+import java.util.List;
+
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
+import org.openqa.selenium.WebElement;
+
+import com.saucedemo.utilities.ElementActions;
 
 public class HomePage {
     
@@ -13,6 +18,7 @@ public class HomePage {
 
     By swagLabsIcon = By.className("app_logo");
     By backpackAddToCart = By.id("add-to-cart-sauce-labs-backpack");
+    By backpackRemoveFromCart = By.id("remove-sauce-labs-backpack");
     By boltTShirtAddToCart = By.id("add-to-cart-sauce-labs-bolt-t-shirt");
     By fleeceJacketAddToCart = By.id("add-to-cart-sauce-labs-fleece-jacket");
     By onesieAddToCart = By.id("add-to-cart-sauce-labs-onesie");
@@ -25,16 +31,40 @@ public class HomePage {
     }
 
     public void addToCart() {
-        if(isHomePageLaunched() == false) {
+        if(!isHomePageLaunched()) {
             return;
         }
-        _driver.findElement(backpackAddToCart).click();
-        _driver.findElement(boltTShirtAddToCart).click();
-        _driver.findElement(fleeceJacketAddToCart).click();
+        ElementActions.Click(_driver.findElement(backpackAddToCart));
+        ElementActions.Click(_driver.findElement(boltTShirtAddToCart));
+        ElementActions.Click(_driver.findElement(fleeceJacketAddToCart));
+       
     }
 
     public void completeShopping() {
-        _driver.findElement(shoppingCart).click();
+        ElementActions.Click(_driver.findElement(shoppingCart));
+    }
+
+    public boolean removeFromCart() {
+        List<WebElement> removeButtons = _driver.findElements(backpackRemoveFromCart);
+        if(ElementActions.AreDisplayed(removeButtons))
+        {
+            if(ElementActions.IsEnabled(_driver.findElement(backpackRemoveFromCart))) {
+                return false;
+            }
+        }
+        else
+        {
+            ElementActions.Click(_driver.findElement(backpackAddToCart));
+            try {
+                Thread.sleep(2000);
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            }
+            if(ElementActions.IsEnabled(_driver.findElement(backpackRemoveFromCart))) {
+                return false;
+            }
+        }
+        return true;
     }
 
 }

@@ -1,25 +1,113 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
+<testng-results ignored="2" total="8" passed="6" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2023-12-26T20:14:36 IST" name="Surefire suite" finished-at="2023-12-26T20:14:38 IST" duration-ms="1806">
+  <suite started-at="2023-12-29T18:55:10 IST" name="Suite" finished-at="2023-12-29T18:55:26 IST" duration-ms="16255">
     <groups>
     </groups>
-    <test started-at="2023-12-26T20:14:36 IST" name="Surefire test" finished-at="2023-12-26T20:14:38 IST" duration-ms="1806">
-      <class name="com.saucedemo.testcases.BaseTest">
-        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.testcases.BaseTest@6e38921c]" started-at="2023-12-26T20:14:31 IST" name="setUp" finished-at="2023-12-26T20:14:36 IST" duration-ms="5521" status="PASS">
+    <test started-at="2023-12-29T18:55:10 IST" name="Test" finished-at="2023-12-29T18:55:26 IST" duration-ms="16255">
+      <class name="com.saucedemo.testcases.ProblemUserTests">
+        <test-method signature="loginPU(java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.testcases.ProblemUserTests@3e11f9e9]" started-at="2023-12-29T18:55:17 IST" name="loginPU" data-provider="data" finished-at="2023-12-29T18:55:18 IST" duration-ms="235" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[problem_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- loginPU -->
+        <test-method signature="testProblemUser()[pri:1, instance:com.saucedemo.testcases.ProblemUserTests@3e11f9e9]" started-at="2023-12-29T18:55:18 IST" name="testProblemUser" finished-at="2023-12-29T18:55:20 IST" duration-ms="2085" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProblemUser -->
+        <test-method signature="logout()[pri:2, instance:com.saucedemo.testcases.ProblemUserTests@3e11f9e9]" started-at="2023-12-29T18:55:20 IST" name="logout" finished-at="2023-12-29T18:55:26 IST" duration-ms="6163" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+      </class> <!-- com.saucedemo.testcases.ProblemUserTests -->
+      <class name="com.saucedemo.testcases.StandardUserTests">
+        <test-method is-config="true" signature="setUp()[pri:0, instance:com.saucedemo.testcases.StandardUserTests@3c7f66c4]" started-at="2023-12-29T18:55:03 IST" name="setUp" finished-at="2023-12-29T18:55:10 IST" duration-ms="6924" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setUp -->
-        <test-method signature="testBaseScenario()[pri:0, instance:com.saucedemo.testcases.BaseTest@6e38921c]" started-at="2023-12-26T20:14:36 IST" name="testBaseScenario" finished-at="2023-12-26T20:14:38 IST" duration-ms="1781" status="PASS">
+        <test-method signature="loginSU(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:com.saucedemo.testcases.StandardUserTests@3c7f66c4]" started-at="2023-12-29T18:55:10 IST" name="loginSU" data-provider="data" finished-at="2023-12-29T18:55:10 IST" duration-ms="380" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ravi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Shankar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[500075]]>
+              </value>
+            </param>
+          </params>
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testBaseScenario -->
-        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.BaseTest@6e38921c]" started-at="2023-12-26T20:14:38 IST" name="tearDown" finished-at="2023-12-26T20:14:38 IST" duration-ms="109" status="PASS">
+        </test-method> <!-- loginSU -->
+        <test-method signature="testStandardUser(java.lang.String,java.lang.String,java.lang.String,java.lang.String,java.lang.String)[pri:1, instance:com.saucedemo.testcases.StandardUserTests@3c7f66c4]" started-at="2023-12-29T18:55:10 IST" name="testStandardUser" data-provider="data" finished-at="2023-12-29T18:55:11 IST" duration-ms="760" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[standard_user]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[secret_sauce]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[Ravi]]>
+              </value>
+            </param>
+            <param index="3">
+              <value>
+                <![CDATA[Shankar]]>
+              </value>
+            </param>
+            <param index="4">
+              <value>
+                <![CDATA[500075]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testStandardUser -->
+        <test-method signature="logout()[pri:2, instance:com.saucedemo.testcases.StandardUserTests@3c7f66c4]" started-at="2023-12-29T18:55:11 IST" name="logout" finished-at="2023-12-29T18:55:17 IST" duration-ms="6195" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- logout -->
+        <test-method is-config="true" signature="tearDown()[pri:0, instance:com.saucedemo.testcases.StandardUserTests@3c7f66c4]" started-at="2023-12-29T18:55:26 IST" name="tearDown" finished-at="2023-12-29T18:55:26 IST" duration-ms="101" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- tearDown -->
-      </class> <!-- com.saucedemo.testcases.BaseTest -->
-    </test> <!-- Surefire test -->
-  </suite> <!-- Surefire suite -->
+      </class> <!-- com.saucedemo.testcases.StandardUserTests -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
 </testng-results>

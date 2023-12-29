@@ -3,6 +3,8 @@ package com.saucedemo.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import com.saucedemo.utilities.ElementActions;
+
 public class CheckoutPage {
     private WebDriver _driver;
 
@@ -13,6 +15,6 @@ public class CheckoutPage {
     By checkoutButton = By.id("checkout");
    
     public void checkout() {
-        _driver.findElement(checkoutButton).click();
+        ElementActions.Click(_driver.findElement(checkoutButton));
     }
 }

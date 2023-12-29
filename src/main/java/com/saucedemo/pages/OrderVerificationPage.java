@@ -3,6 +3,8 @@ package com.saucedemo.pages;
 import org.openqa.selenium.By;
 import org.openqa.selenium.WebDriver;
 
+import com.saucedemo.utilities.ElementActions;
+
 public class OrderVerificationPage {
     private WebDriver _driver;
 
@@ -14,11 +16,11 @@ public class OrderVerificationPage {
     By backHomeButton = By.id("back-to-products");
 
     public boolean isOrderSuccessful() {
-        return _driver.findElement(verifyOrderSuccessful).isDisplayed();
+        return ElementActions.IsDisplayed(_driver.findElement(verifyOrderSuccessful));
     }
 
     public void backHome() {
-        _driver.findElement(backHomeButton).click();
+        ElementActions.Click(_driver.findElement(backHomeButton));
     }
     
 }

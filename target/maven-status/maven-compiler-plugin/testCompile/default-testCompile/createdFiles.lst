@@ -1,1 +1,2 @@
-com/saucedemo/testcases/BaseTest.class
+com/saucedemo/testcases/StandardUserTests.class
+com/saucedemo/testcases/ProblemUserTests.class
