@@ -34,6 +34,7 @@ public class ElementActions {
     }
 
     public static boolean IsDisplayed(WebElement element) {
+        WaitHandling.Wait(element, "isDisplayed");
         if(element.isDisplayed())
         {
             LoggerUtil.info("Element: " + element.toString() + " is displayed");
@@ -47,6 +48,7 @@ public class ElementActions {
     }
 
     public static boolean IsEnabled(WebElement element) {
+        WaitHandling.Wait(element, "isEnabled");
         if(element.isEnabled())
         {
             LoggerUtil.info("Element: " + element.toString() + " is enabled");

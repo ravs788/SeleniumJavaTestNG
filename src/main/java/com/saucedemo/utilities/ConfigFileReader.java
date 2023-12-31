@@ -46,4 +46,18 @@ public class ConfigFileReader {
         if(URL!= null) return URL;
         else throw new RuntimeException("URL not specified in the Configuration.properties file.");
     }
+
+    public int getWaitTime()
+    {
+        String waitTime = properties.getProperty("waitTime");
+        if(waitTime!= null) return Integer.parseInt(waitTime);
+        else throw new RuntimeException("Wait time not specified in the Configuration.properties file.");
+    }
+
+    public int getPollingTime()
+    {
+        String pollingTime = properties.getProperty("pollingTime");
+        if(pollingTime!= null) return Integer.parseInt(pollingTime);
+        else throw new RuntimeException("Polling time not specified in the Configuration.properties file.");
+    }
 }

@@ -18,6 +18,7 @@ public class BaseTest {
     protected ConfigFileReader configFileReader;
     protected static String URL;
     protected static String browser; 
+    protected static int waitTime;
 	
     @BeforeSuite
     public void setUp() throws InterruptedException {
@@ -25,6 +26,7 @@ public class BaseTest {
         configFileReader = new ConfigFileReader();
         URL = configFileReader.getURL();
         browser = configFileReader.getBrowser();
+        waitTime = configFileReader.getWaitTime();
         if(browser.equals("chrome"))
         {
             WebDriverManager.chromedriver().setup();
