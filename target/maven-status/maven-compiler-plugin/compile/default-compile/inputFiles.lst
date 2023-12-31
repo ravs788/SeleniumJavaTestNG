@@ -3,6 +3,7 @@
 /Users/ravishankar/Desktop/Learning/Testing/SeleniumJavaTestNG/testsolution/src/main/java/com/saucedemo/pages/PaymentsPage.java
 /Users/ravishankar/Desktop/Learning/Testing/SeleniumJavaTestNG/testsolution/src/main/java/com/saucedemo/pages/LoginPage.java
 /Users/ravishankar/Desktop/Learning/Testing/SeleniumJavaTestNG/testsolution/src/main/java/com/saucedemo/utilities/ConfigFileReader.java
+/Users/ravishankar/Desktop/Learning/Testing/SeleniumJavaTestNG/testsolution/src/main/java/com/saucedemo/utilities/WaitHandling.java
 /Users/ravishankar/Desktop/Learning/Testing/SeleniumJavaTestNG/testsolution/src/main/java/com/saucedemo/utilities/LoggerUtil.java
 /Users/ravishankar/Desktop/Learning/Testing/SeleniumJavaTestNG/testsolution/src/main/java/com/saucedemo/pages/CheckoutPage.java
 /Users/ravishankar/Desktop/Learning/Testing/SeleniumJavaTestNG/testsolution/src/main/java/com/saucedemo/pages/LogoutPage.java
