@@ -1435,3 +1435,134 @@
 [INFO ] 2023-12-30 17:34:00.998 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (def53a4d1a8da18afd46379f9863980f)] -> id: logout_sidebar_link] is displayed
 [INFO ] 2023-12-30 17:34:01.011 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (def53a4d1a8da18afd46379f9863980f)] -> id: logout_sidebar_link] is enabled
 [INFO ] 2023-12-30 17:34:01.055 [main] LoggerUtil - Clicked on element: [[ChromeDriver: chrome on mac (def53a4d1a8da18afd46379f9863980f)] -> id: logout_sidebar_link]
+[DEBUG] 2023-12-31 06:24:55.006 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 06:24:55.008 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-31 06:24:55.009 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-31 06:24:55.271 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 06:24:55.271 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-31 06:24:55.272 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-31 06:24:55.291 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 06:24:55.291 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-31 06:24:55.292 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-31 06:25:32.190 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 06:25:32.192 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-31 06:25:32.193 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-31 06:25:32.455 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 06:25:32.455 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-31 06:25:32.456 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[DEBUG] 2023-12-31 06:25:32.479 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 06:25:32.479 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-31 06:25:32.480 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-12-31 06:26:09.837 [main] LoggerUtil - Chrome Browser Launched
+[INFO ] 2023-12-31 06:26:14.014 [main] LoggerUtil - URL https://www.saucedemo.com/ Launched
+[DEBUG] 2023-12-31 06:26:16.668 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 06:26:16.670 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-31 06:26:16.672 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-12-31 06:26:17.063 [main] LoggerUtil - ****************************************************************************************
+[INFO ] 2023-12-31 06:26:17.063 [main] LoggerUtil - ****************************************************************************************
+[INFO ] 2023-12-31 06:26:17.063 [main] LoggerUtil - $$$$$$$$$$$$$$$$$$$$$                 StandardUserTests       $$$$$$$$$$$$$$$$$$$$$$$$$
+[INFO ] 2023-12-31 06:26:17.063 [main] LoggerUtil - ****************************************************************************************
+[INFO ] 2023-12-31 06:26:17.063 [main] LoggerUtil - ****************************************************************************************
+[INFO ] 2023-12-31 06:26:17.251 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> class name: login_logo] is displayed
+[INFO ] 2023-12-31 06:26:17.393 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: user-name] is displayed
+[INFO ] 2023-12-31 06:26:17.442 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: user-name] is enabled
+[INFO ] 2023-12-31 06:26:17.481 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: user-name] is displayed
+[INFO ] 2023-12-31 06:26:17.496 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: user-name] is enabled
+[INFO ] 2023-12-31 06:26:17.578 [main] LoggerUtil - Cleared element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: user-name]
+[INFO ] 2023-12-31 06:26:18.698 [main] LoggerUtil - Entered data: standard_user in element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: user-name]
+[INFO ] 2023-12-31 06:26:18.811 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: password] is displayed
+[INFO ] 2023-12-31 06:26:18.829 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: password] is enabled
+[INFO ] 2023-12-31 06:26:19.074 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: password] is displayed
+[INFO ] 2023-12-31 06:26:19.090 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: password] is enabled
+[INFO ] 2023-12-31 06:26:19.219 [main] LoggerUtil - Cleared element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: password]
+[INFO ] 2023-12-31 06:26:19.429 [main] LoggerUtil - Entered data: secret_sauce in element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: password]
+[INFO ] 2023-12-31 06:26:19.477 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: login-button] is displayed
+[INFO ] 2023-12-31 06:26:19.494 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: login-button] is enabled
+[INFO ] 2023-12-31 06:26:21.556 [main] LoggerUtil - Clicked on element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: login-button]
+[DEBUG] 2023-12-31 06:26:21.593 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 06:26:21.594 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-31 06:26:21.594 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-12-31 06:26:21.806 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: add-to-cart-sauce-labs-backpack] is displayed
+[INFO ] 2023-12-31 06:26:21.822 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: add-to-cart-sauce-labs-backpack] is enabled
+[INFO ] 2023-12-31 06:26:22.449 [main] LoggerUtil - Clicked on element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: add-to-cart-sauce-labs-backpack]
+[INFO ] 2023-12-31 06:26:22.550 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: add-to-cart-sauce-labs-bolt-t-shirt] is displayed
+[INFO ] 2023-12-31 06:26:22.566 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: add-to-cart-sauce-labs-bolt-t-shirt] is enabled
+[INFO ] 2023-12-31 06:26:23.158 [main] LoggerUtil - Clicked on element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: add-to-cart-sauce-labs-bolt-t-shirt]
+[INFO ] 2023-12-31 06:26:23.213 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: add-to-cart-sauce-labs-fleece-jacket] is displayed
+[INFO ] 2023-12-31 06:26:23.228 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: add-to-cart-sauce-labs-fleece-jacket] is enabled
+[INFO ] 2023-12-31 06:26:23.387 [main] LoggerUtil - Clicked on element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: add-to-cart-sauce-labs-fleece-jacket]
+[INFO ] 2023-12-31 06:26:23.623 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> class name: shopping_cart_link] is displayed
+[INFO ] 2023-12-31 06:26:23.657 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> class name: shopping_cart_link] is enabled
+[INFO ] 2023-12-31 06:26:25.297 [main] LoggerUtil - Clicked on element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> class name: shopping_cart_link]
+[INFO ] 2023-12-31 06:26:25.634 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: checkout] is displayed
+[INFO ] 2023-12-31 06:26:25.648 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: checkout] is enabled
+[INFO ] 2023-12-31 06:26:25.955 [main] LoggerUtil - Clicked on element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: checkout]
+[INFO ] 2023-12-31 06:26:26.084 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: first-name] is displayed
+[INFO ] 2023-12-31 06:26:26.100 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: first-name] is enabled
+[INFO ] 2023-12-31 06:26:26.164 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: first-name] is displayed
+[INFO ] 2023-12-31 06:26:26.182 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: first-name] is enabled
+[INFO ] 2023-12-31 06:26:26.205 [main] LoggerUtil - Cleared element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: first-name]
+[INFO ] 2023-12-31 06:26:26.627 [main] LoggerUtil - Entered data: Ravi in element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: first-name]
+[INFO ] 2023-12-31 06:26:26.770 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: last-name] is displayed
+[INFO ] 2023-12-31 06:26:26.784 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: last-name] is enabled
+[INFO ] 2023-12-31 06:26:26.805 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: last-name] is displayed
+[INFO ] 2023-12-31 06:26:26.819 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: last-name] is enabled
+[INFO ] 2023-12-31 06:26:26.835 [main] LoggerUtil - Cleared element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: last-name]
+[INFO ] 2023-12-31 06:26:28.087 [main] LoggerUtil - Entered data: Shankar in element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: last-name]
+[INFO ] 2023-12-31 06:26:28.251 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: postal-code] is displayed
+[INFO ] 2023-12-31 06:26:28.266 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: postal-code] is enabled
+[INFO ] 2023-12-31 06:26:28.293 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: postal-code] is displayed
+[INFO ] 2023-12-31 06:26:28.311 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: postal-code] is enabled
+[INFO ] 2023-12-31 06:26:28.329 [main] LoggerUtil - Cleared element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: postal-code]
+[INFO ] 2023-12-31 06:26:28.583 [main] LoggerUtil - Entered data: 500075 in element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: postal-code]
+[INFO ] 2023-12-31 06:26:28.652 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: continue] is displayed
+[INFO ] 2023-12-31 06:26:28.668 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: continue] is enabled
+[INFO ] 2023-12-31 06:26:28.958 [main] LoggerUtil - Clicked on element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: continue]
+[INFO ] 2023-12-31 06:26:29.021 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: finish] is displayed
+[INFO ] 2023-12-31 06:26:29.043 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: finish] is enabled
+[INFO ] 2023-12-31 06:26:29.970 [main] LoggerUtil - Clicked on element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: finish]
+[INFO ] 2023-12-31 06:26:30.015 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> class name: complete-header] is displayed
+[INFO ] 2023-12-31 06:26:30.055 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: back-to-products] is displayed
+[INFO ] 2023-12-31 06:26:30.083 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: back-to-products] is enabled
+[INFO ] 2023-12-31 06:26:30.598 [main] LoggerUtil - Clicked on element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: back-to-products]
+[INFO ] 2023-12-31 06:26:32.700 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: react-burger-menu-btn] is displayed
+[INFO ] 2023-12-31 06:26:32.716 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: react-burger-menu-btn] is enabled
+[INFO ] 2023-12-31 06:26:32.942 [main] LoggerUtil - Clicked on element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: react-burger-menu-btn]
+[INFO ] 2023-12-31 06:26:35.021 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: logout_sidebar_link] is displayed
+[INFO ] 2023-12-31 06:26:35.036 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: logout_sidebar_link] is enabled
+[INFO ] 2023-12-31 06:26:35.288 [main] LoggerUtil - Clicked on element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: logout_sidebar_link]
+[INFO ] 2023-12-31 06:26:37.293 [main] LoggerUtil - XXXXXXXXXXXXXXXXXXXXXXX             -E---N---D-             XXXXXXXXXXXXXXXXXXXXXX
+[INFO ] 2023-12-31 06:26:37.294 [main] LoggerUtil - X
+[INFO ] 2023-12-31 06:26:37.295 [main] LoggerUtil - X
+[INFO ] 2023-12-31 06:26:37.295 [main] LoggerUtil - X
+[INFO ] 2023-12-31 06:26:37.295 [main] LoggerUtil - X
+[DEBUG] 2023-12-31 06:26:37.323 [main] PackageRelationshipCollection - Parsing relationship: /xl/_rels/workbook.xml.rels
+[DEBUG] 2023-12-31 06:26:37.325 [main] PackageRelationshipCollection - Parsing relationship: /xl/worksheets/_rels/sheet1.xml.rels
+[DEBUG] 2023-12-31 06:26:37.325 [main] PackageRelationshipCollection - Parsing relationship: /_rels/.rels
+[INFO ] 2023-12-31 06:26:37.409 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> class name: login_logo] is displayed
+[INFO ] 2023-12-31 06:26:37.495 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: user-name] is displayed
+[INFO ] 2023-12-31 06:26:37.507 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: user-name] is enabled
+[INFO ] 2023-12-31 06:26:37.561 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: user-name] is displayed
+[INFO ] 2023-12-31 06:26:37.574 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: user-name] is enabled
+[INFO ] 2023-12-31 06:26:37.590 [main] LoggerUtil - Cleared element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: user-name]
+[INFO ] 2023-12-31 06:26:37.647 [main] LoggerUtil - Entered data: problem_user in element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: user-name]
+[INFO ] 2023-12-31 06:26:37.784 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: password] is displayed
+[INFO ] 2023-12-31 06:26:37.802 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: password] is enabled
+[INFO ] 2023-12-31 06:26:37.839 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: password] is displayed
+[INFO ] 2023-12-31 06:26:37.857 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: password] is enabled
+[INFO ] 2023-12-31 06:26:37.878 [main] LoggerUtil - Cleared element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: password]
+[INFO ] 2023-12-31 06:26:37.979 [main] LoggerUtil - Entered data: secret_sauce in element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: password]
+[INFO ] 2023-12-31 06:26:38.129 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: login-button] is displayed
+[INFO ] 2023-12-31 06:26:38.151 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: login-button] is enabled
+[INFO ] 2023-12-31 06:26:38.965 [main] LoggerUtil - Clicked on element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: login-button]
+[ERROR] 2023-12-31 06:26:39.049 [main] LoggerUtil - No elements found
+[INFO ] 2023-12-31 06:26:39.138 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: add-to-cart-sauce-labs-backpack] is displayed
+[INFO ] 2023-12-31 06:26:39.153 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: add-to-cart-sauce-labs-backpack] is enabled
+[INFO ] 2023-12-31 06:26:39.279 [main] LoggerUtil - Clicked on element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: add-to-cart-sauce-labs-backpack]
+[INFO ] 2023-12-31 06:26:41.329 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: remove-sauce-labs-backpack] is enabled
+[INFO ] 2023-12-31 06:26:43.443 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: react-burger-menu-btn] is displayed
+[INFO ] 2023-12-31 06:26:43.459 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: react-burger-menu-btn] is enabled
+[INFO ] 2023-12-31 06:26:43.770 [main] LoggerUtil - Clicked on element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: react-burger-menu-btn]
+[INFO ] 2023-12-31 06:26:45.883 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: logout_sidebar_link] is displayed
+[INFO ] 2023-12-31 06:26:45.896 [main] LoggerUtil - Element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: logout_sidebar_link] is enabled
+[INFO ] 2023-12-31 06:26:46.303 [main] LoggerUtil - Clicked on element: [[ChromeDriver: chrome on mac (57dcec389b5bdf0c11e360fbf0df87b7)] -> id: logout_sidebar_link]
