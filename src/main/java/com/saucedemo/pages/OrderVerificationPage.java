@@ -7,20 +7,22 @@ import com.saucedemo.utilities.ElementActions;
 
 public class OrderVerificationPage {
     private WebDriver _driver;
+    private ElementActions _elementActions;
 
-    public OrderVerificationPage(WebDriver driver) {
+    public OrderVerificationPage(WebDriver driver, ElementActions elementActions) {
         _driver = driver;
+        _elementActions = elementActions;
     }   
 
     By verifyOrderSuccessful = By.className("complete-header");
     By backHomeButton = By.id("back-to-products");
 
     public boolean isOrderSuccessful() {
-        return ElementActions.IsDisplayed(_driver.findElement(verifyOrderSuccessful));
+        return _elementActions.IsDisplayed(_driver.findElement(verifyOrderSuccessful));
     }
 
     public void backHome() {
-        ElementActions.Click(_driver.findElement(backHomeButton));
+        _elementActions.Click(_driver.findElement(backHomeButton));
     }
     
 }

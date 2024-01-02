@@ -5,27 +5,36 @@ import java.util.List;
 import org.openqa.selenium.WebElement;
 
 public class ElementActions {
-    public static void EnterData(WebElement element, String data) {
-        if(ElementActions.IsDisplayed(element) && ElementActions.IsEnabled(element))
+
+    private WaitHandling _waitHandling;
+    private LoggerUtil _loggerUtil;
+
+    public ElementActions(WaitHandling waitHandling, LoggerUtil loggerUtil) {
+        _waitHandling = waitHandling;
+        _loggerUtil = loggerUtil;
+    }
+
+    public void EnterData(WebElement element, String data) {
+        if(IsDisplayed(element) && IsEnabled(element))
         {
-            ElementActions.Clear(element);    
+            Clear(element);    
             element.sendKeys(data);
         }
 
-        LoggerUtil.info("Entered data: " + data + " in element: " + element.toString());
+        _loggerUtil.info("Entered data: " + data + " in element: " + element.toString());
     }
 
-    public static void Click(WebElement element) {
-        if(ElementActions.IsDisplayed(element) && ElementActions.IsEnabled(element))
+    public void Click(WebElement element) {
+        if(IsDisplayed(element) && IsEnabled(element))
             element.click();
 
-        LoggerUtil.info("Clicked on element: " + element.toString());
+        _loggerUtil.info("Clicked on element: " + element.toString());
     }
 
-    public  static String GetText(WebElement element) {
-        if(ElementActions.IsDisplayed(element) && ElementActions.IsEnabled(element))
+    public String GetText(WebElement element) {
+        if(IsDisplayed(element) && IsEnabled(element))
         {
-            LoggerUtil.info("Text of element: " + element.toString() + " is: " + element.getText());
+            _loggerUtil.info("Text of element: " + element.toString() + " is: " + element.getText());
             return element.getText();
         }
         else
@@ -33,59 +42,59 @@ public class ElementActions {
 
     }
 
-    public static boolean IsDisplayed(WebElement element) {
-        WaitHandling.Wait(element, "isDisplayed");
+    public boolean IsDisplayed(WebElement element) {
+        _waitHandling.Wait(element, "isDisplayed");
         if(element.isDisplayed())
         {
-            LoggerUtil.info("Element: " + element.toString() + " is displayed");
+            _loggerUtil.info("Element: " + element.toString() + " is displayed");
             return true;
         }
         else
         {
-            LoggerUtil.error("Element: " + element.toString() + " is not displayed");
+            _loggerUtil.error("Element: " + element.toString() + " is not displayed");
             return false;
         }
     }
 
-    public static boolean IsEnabled(WebElement element) {
-        WaitHandling.Wait(element, "isEnabled");
+    public boolean IsEnabled(WebElement element) {
+        _waitHandling.Wait(element, "isEnabled");
         if(element.isEnabled())
         {
-            LoggerUtil.info("Element: " + element.toString() + " is enabled");
+            _loggerUtil.info("Element: " + element.toString() + " is enabled");
             return true;
         }
         else
         {
-            LoggerUtil.error("Element: " + element.toString() + " is not enabled");
+            _loggerUtil.error("Element: " + element.toString() + " is not enabled");
             return false;
         }
     }
 
-    public static void Clear(WebElement element) {
-        if(ElementActions.IsDisplayed(element) && ElementActions.IsEnabled(element))
+    public void Clear(WebElement element) {
+        if(IsDisplayed(element) && IsEnabled(element))
             element.clear();
         
-        LoggerUtil.info("Cleared element: " + element.toString());
+        _loggerUtil.info("Cleared element: " + element.toString());
     }
 
-    public static boolean AreDisplayed(List<WebElement> elements) {
+    public boolean AreDisplayed(List<WebElement> elements) {
         if(elements.size() > 0) 
         {
             for(WebElement element : elements)
             {
                 if(!element.isDisplayed())
                 {
-                    LoggerUtil.error("Element: " + element.toString() + " is not displayed");
+                    _loggerUtil.error("Element: " + element.toString() + " is not displayed");
                     return false;
                 }
                 else
-                    LoggerUtil.info("Element: " + element.toString() + " is displayed");
+                    _loggerUtil.info("Element: " + element.toString() + " is displayed");
             }
             return true;
         }
         else
         {
-            LoggerUtil.error("No elements found");
+            _loggerUtil.error("No elements found");
             return false;
         }
     }

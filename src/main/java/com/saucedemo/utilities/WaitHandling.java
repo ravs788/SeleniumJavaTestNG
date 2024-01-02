@@ -13,15 +13,15 @@ import org.openqa.selenium.support.ui.WebDriverWait;
 public class WaitHandling {
 
     private ConfigFileReader configFileReader;
-    private static int waitTime;
-    private static int pollingTime;
+    private int waitTime;
+    private int pollingTime;
 
     public WaitHandling() {
         configFileReader = new ConfigFileReader();
         waitTime = configFileReader.getWaitTime();
         pollingTime = configFileReader.getPollingTime();
     }
-    public static boolean Wait(WebElement element, String operation)
+    public boolean Wait(WebElement element, String operation)
     {
         ExplicitWait(element, operation);   
         if(operation.equals("isDisplayed"))     
@@ -87,7 +87,7 @@ public class WaitHandling {
         return false;
     }
 
-    public static void ExplicitWait(WebElement element, String operation)
+    public void ExplicitWait(WebElement element, String operation)
     {
         RemoteWebElement remoteElement = (RemoteWebElement)element;
         WebDriver driver = remoteElement.getWrappedDriver();
@@ -109,7 +109,7 @@ public class WaitHandling {
             wait.until(d -> element.isDisplayed());
     }
 
-    public static void FluentWait(WebElement element, String operation)
+    public void FluentWait(WebElement element, String operation)
     {
         RemoteWebElement remoteElement = (RemoteWebElement)element;
         WebDriver driver = remoteElement.getWrappedDriver();

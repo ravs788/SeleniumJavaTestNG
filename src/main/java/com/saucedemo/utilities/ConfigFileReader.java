@@ -6,7 +6,7 @@ import java.io.IOException;
 import java.util.Properties;
 
 public class ConfigFileReader {
-    private static Properties properties;
+    private Properties properties;
     private final String propertyFilePath= "src/main/java/com/saucedemo/config/config.properties";
 
     public ConfigFileReader() {
