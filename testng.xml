@@ -5,7 +5,6 @@
     <classes>
       <class name="com.saucedemo.testcases.StandardUserTests"/>
       <class name="com.saucedemo.testcases.ProblemUserTests"/>
-      <!-- <class name="com.saucedemo.testcases.ProblemUserTests"/> -->
 
     </classes>
   </test>  <!-- Test -->

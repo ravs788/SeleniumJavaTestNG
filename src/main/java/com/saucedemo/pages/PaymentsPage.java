@@ -6,18 +6,18 @@ import org.openqa.selenium.WebDriver;
 import com.saucedemo.utilities.ElementActions;
 
 public class PaymentsPage {
-    private WebDriver _driver;
-    private ElementActions _elementActions;
+    private WebDriver driver;
+    private ElementActions elementActions;
 
 
     public PaymentsPage(WebDriver driver, ElementActions elementActions) {
-        _driver = driver;
-        _elementActions = elementActions;
+        this.driver = driver;
+        this.elementActions = elementActions;
     }
 
     By finishButton = By.id("finish");
     
     public void finishOrder() {
-        _elementActions.Click(_driver.findElement(finishButton));
+        elementActions.click(driver.findElement(finishButton));
     }
 }
