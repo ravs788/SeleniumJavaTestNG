@@ -7,14 +7,17 @@ import com.saucedemo.utilities.ElementActions;
 
 public class PaymentsPage {
     private WebDriver _driver;
+    private ElementActions _elementActions;
 
-    public PaymentsPage(WebDriver driver) {
+
+    public PaymentsPage(WebDriver driver, ElementActions elementActions) {
         _driver = driver;
+        _elementActions = elementActions;
     }
 
     By finishButton = By.id("finish");
     
     public void finishOrder() {
-        ElementActions.Click(_driver.findElement(finishButton));
+        _elementActions.Click(_driver.findElement(finishButton));
     }
 }

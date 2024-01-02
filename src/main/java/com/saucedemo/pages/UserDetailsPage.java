@@ -8,9 +8,12 @@ import com.saucedemo.utilities.ElementActions;
 
 public class UserDetailsPage {
     private WebDriver _driver;
+    private ElementActions _elementActions;
 
-    public UserDetailsPage(WebDriver driver) {
+
+    public UserDetailsPage(WebDriver driver, ElementActions elementActions) {
         _driver = driver;
+        _elementActions = elementActions;
     }
 
     By firstName = By.id("first-name");
@@ -19,9 +22,9 @@ public class UserDetailsPage {
     By continueButton = By.id("continue");
 
     public void enterUserDetails(String firstNameData, String lastNameData, String postalCodeData) {
-        ElementActions.EnterData(_driver.findElement(firstName), firstNameData);
-        ElementActions.EnterData(_driver.findElement(lastName), lastNameData);
-        ElementActions.EnterData(_driver.findElement(postalCode), postalCodeData);
-        ElementActions.Click(_driver.findElement(continueButton));
+        _elementActions.EnterData(_driver.findElement(firstName), firstNameData);
+        _elementActions.EnterData(_driver.findElement(lastName), lastNameData);
+        _elementActions.EnterData(_driver.findElement(postalCode), postalCodeData);
+        _elementActions.Click(_driver.findElement(continueButton));
     }
 }

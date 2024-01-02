@@ -22,7 +22,7 @@ public class ProblemUserTests extends BaseTest{
 
     @Test(priority=0, dataProvider = "data", dataProviderClass = com.saucedemo.utilities.ExcelUtility.class)
     public void loginPU(String username, String password) {
-        loginPage = new LoginPage(_driver);
+        loginPage = new LoginPage(_driver, elementActions);
         Assert.assertTrue(loginPage.isLoginPageLaunched());
         loginPage.login(username, password);
     }
@@ -30,7 +30,7 @@ public class ProblemUserTests extends BaseTest{
     @Test(priority=1)
     public void testProblemUser(){
         
-        homePage = new HomePage(_driver);
+        homePage = new HomePage(_driver, elementActions);
         Assert.assertTrue(homePage.isHomePageLaunched());
         Assert.assertEquals(homePage.removeFromCart(), false);
 
@@ -38,7 +38,7 @@ public class ProblemUserTests extends BaseTest{
 
     @Test(priority=2)
     public void logout() {
-        logoutPage = new LogoutPage(_driver);
+        logoutPage = new LogoutPage(_driver, elementActions);
         logoutPage.logout();
     }
 }

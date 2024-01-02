@@ -18,7 +18,7 @@ import org.testng.annotations.DataProvider;
 public class ExcelUtility {
 
     @DataProvider(name="data")
-    public static Object[][] ReadExcelData(Method method) throws IOException
+    public Object[][] ReadExcelData(Method method) throws IOException
     {
         String fileName = null;
         String sheetName = null;

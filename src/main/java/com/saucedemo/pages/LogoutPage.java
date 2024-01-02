@@ -7,32 +7,20 @@ import com.saucedemo.utilities.ElementActions;
 
 public class LogoutPage {
     private WebDriver _driver;
+    private ElementActions _elementActions;
 
-    public LogoutPage(WebDriver driver) {
+
+    public LogoutPage(WebDriver driver, ElementActions elementActions) {
         _driver = driver;
+        _elementActions = elementActions;
     }
 
     By menuButton = By.id("react-burger-menu-btn");
     By logoutButton = By.id("logout_sidebar_link");
 
     public void logout() {
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        ElementActions.Click(_driver.findElement(menuButton));
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
-        ElementActions.Click(_driver.findElement(logoutButton));
-        try {
-            Thread.sleep(2000);
-        } catch (InterruptedException e) {
-            e.printStackTrace();
-        }
+        _elementActions.Click(_driver.findElement(menuButton));
+        _elementActions.Click(_driver.findElement(logoutButton));
     }
             
 }

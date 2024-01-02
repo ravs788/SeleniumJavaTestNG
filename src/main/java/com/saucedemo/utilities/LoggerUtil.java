@@ -5,9 +5,9 @@ import org.apache.logging.log4j.Logger;
 
 public class LoggerUtil {
 
-    public static Logger log = LogManager.getLogger(LoggerUtil.class);
+    public Logger log = LogManager.getLogger(LoggerUtil.class);
     
-    public static void startTestCase(String sTestCaseName){
+    public void startTestCase(String sTestCaseName){
 
         log.info("****************************************************************************************");
         log.info("****************************************************************************************");
@@ -18,7 +18,7 @@ public class LoggerUtil {
     }
  
      //This is to print log for the ending of the test case
-    public static void endTestCase(String sTestCaseName){
+    public void endTestCase(String sTestCaseName){
         log.info("XXXXXXXXXXXXXXXXXXXXXXX             "+"-E---N---D-"+"             XXXXXXXXXXXXXXXXXXXXXX");
         log.info("X");
         log.info("X");
@@ -27,23 +27,23 @@ public class LoggerUtil {
  
     }
 
-    public static void info(String message) {
+    public void info(String message) {
         log.info(message);
         }
 
-    public static void warn(String message) {
+    public void warn(String message) {
         log.warn(message);
         }
 
-    public static void error(String message) {
+    public void error(String message) {
         log.error(message);
         }
 
-    public static void fatal(String message) {
+    public void fatal(String message) {
         log.fatal(message);
         }
 
-    public static void debug(String message) {
+    public void debug(String message) {
         log.debug(message);
     }
 

@@ -113,12 +113,12 @@
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.saucedemo.testcases.ProblemUserTests" class="method navigator-link" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.saucedemo.testcases.StandardUserTests" class="method navigator-link" hash-for-method="logout">logout</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
                         <img src="skipped.png" width="3%"/>
-                        <a href="#" panel-name="suite-Suite" title="com.saucedemo.testcases.StandardUserTests" class="method navigator-link" hash-for-method="logout">logout</a> <!-- method navigator-link -->
+                        <a href="#" panel-name="suite-Suite" title="com.saucedemo.testcases.ProblemUserTests" class="method navigator-link" hash-for-method="logout">logout</a> <!-- method navigator-link -->
                       </span>
                       <br/>
                       <span>
@@ -155,13 +155,31 @@
                   </a> <!-- loginSU(standard_user, secret_sauce, Ravi, Shankar, 500075) -->
                   <span class="method-name">loginSU</span>
                   <span class="parameters">(standard_user,secret_sauce,Ravi,Shankar,500075)</span>
-                  <div class="stack-trace">java.lang.NumberFormatException: For input string: &quot;60  &quot;
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:661)
-	at java.base/java.lang.Integer.parseInt(Integer.java:777)
-	at com.saucedemo.utilities.ConfigFileReader.getWaitTime(ConfigFileReader.java:53)
-	at com.saucedemo.base.BaseTest.setUp(BaseTest.java:29)
-... Removed 21 stack frames
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status signal 
+Host info: host: &apos;Ravis-MacBook-Pro.local&apos;, ip: &apos;2405:201:c00a:88c8:d09:fc2e:af45:58e%en0&apos;
+Build info: version: &apos;4.14.1&apos;, revision: &apos;03f8ede370&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:156)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:151)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at com.saucedemo.base.BaseTest.setUp(BaseTest.java:57)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 8 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -170,13 +188,31 @@
                   <a name="logout">
                   </a> <!-- logout -->
                   <span class="method-name">logout</span>
-                  <div class="stack-trace">java.lang.NumberFormatException: For input string: &quot;60  &quot;
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:661)
-	at java.base/java.lang.Integer.parseInt(Integer.java:777)
-	at com.saucedemo.utilities.ConfigFileReader.getWaitTime(ConfigFileReader.java:53)
-	at com.saucedemo.base.BaseTest.setUp(BaseTest.java:29)
-... Removed 21 stack frames
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status signal 
+Host info: host: &apos;Ravis-MacBook-Pro.local&apos;, ip: &apos;2405:201:c00a:88c8:d09:fc2e:af45:58e%en0&apos;
+Build info: version: &apos;4.14.1&apos;, revision: &apos;03f8ede370&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:156)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:151)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at com.saucedemo.base.BaseTest.setUp(BaseTest.java:57)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 8 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -186,13 +222,31 @@
                   </a> <!-- testStandardUser(standard_user, secret_sauce, Ravi, Shankar, 500075) -->
                   <span class="method-name">testStandardUser</span>
                   <span class="parameters">(standard_user,secret_sauce,Ravi,Shankar,500075)</span>
-                  <div class="stack-trace">java.lang.NumberFormatException: For input string: &quot;60  &quot;
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:661)
-	at java.base/java.lang.Integer.parseInt(Integer.java:777)
-	at com.saucedemo.utilities.ConfigFileReader.getWaitTime(ConfigFileReader.java:53)
-	at com.saucedemo.base.BaseTest.setUp(BaseTest.java:29)
-... Removed 21 stack frames
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status signal 
+Host info: host: &apos;Ravis-MacBook-Pro.local&apos;, ip: &apos;2405:201:c00a:88c8:d09:fc2e:af45:58e%en0&apos;
+Build info: version: &apos;4.14.1&apos;, revision: &apos;03f8ede370&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:156)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:151)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at com.saucedemo.base.BaseTest.setUp(BaseTest.java:57)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 8 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -210,13 +264,31 @@
                   </a> <!-- loginPU(problem_user, secret_sauce) -->
                   <span class="method-name">loginPU</span>
                   <span class="parameters">(problem_user,secret_sauce)</span>
-                  <div class="stack-trace">java.lang.NumberFormatException: For input string: &quot;60  &quot;
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:661)
-	at java.base/java.lang.Integer.parseInt(Integer.java:777)
-	at com.saucedemo.utilities.ConfigFileReader.getWaitTime(ConfigFileReader.java:53)
-	at com.saucedemo.base.BaseTest.setUp(BaseTest.java:29)
-... Removed 21 stack frames
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status signal 
+Host info: host: &apos;Ravis-MacBook-Pro.local&apos;, ip: &apos;2405:201:c00a:88c8:d09:fc2e:af45:58e%en0&apos;
+Build info: version: &apos;4.14.1&apos;, revision: &apos;03f8ede370&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:156)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:151)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at com.saucedemo.base.BaseTest.setUp(BaseTest.java:57)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 8 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -225,13 +297,31 @@
                   <a name="logout">
                   </a> <!-- logout -->
                   <span class="method-name">logout</span>
-                  <div class="stack-trace">java.lang.NumberFormatException: For input string: &quot;60  &quot;
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:661)
-	at java.base/java.lang.Integer.parseInt(Integer.java:777)
-	at com.saucedemo.utilities.ConfigFileReader.getWaitTime(ConfigFileReader.java:53)
-	at com.saucedemo.base.BaseTest.setUp(BaseTest.java:29)
-... Removed 21 stack frames
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status signal 
+Host info: host: &apos;Ravis-MacBook-Pro.local&apos;, ip: &apos;2405:201:c00a:88c8:d09:fc2e:af45:58e%en0&apos;
+Build info: version: &apos;4.14.1&apos;, revision: &apos;03f8ede370&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:156)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:151)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at com.saucedemo.base.BaseTest.setUp(BaseTest.java:57)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 8 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -240,13 +330,31 @@
                   <a name="testProblemUser">
                   </a> <!-- testProblemUser -->
                   <span class="method-name">testProblemUser</span>
-                  <div class="stack-trace">java.lang.NumberFormatException: For input string: &quot;60  &quot;
-	at java.base/java.lang.NumberFormatException.forInputString(NumberFormatException.java:67)
-	at java.base/java.lang.Integer.parseInt(Integer.java:661)
-	at java.base/java.lang.Integer.parseInt(Integer.java:777)
-	at com.saucedemo.utilities.ConfigFileReader.getWaitTime(ConfigFileReader.java:53)
-	at com.saucedemo.base.BaseTest.setUp(BaseTest.java:29)
-... Removed 21 stack frames
+                  <div class="stack-trace">org.openqa.selenium.SessionNotCreatedException: Could not start a new session. Response code 500. Message: Process unexpectedly closed with status signal 
+Host info: host: &apos;Ravis-MacBook-Pro.local&apos;, ip: &apos;2405:201:c00a:88c8:d09:fc2e:af45:58e%en0&apos;
+Build info: version: &apos;4.14.1&apos;, revision: &apos;03f8ede370&apos;
+System info: os.name: &apos;Mac OS X&apos;, os.arch: &apos;aarch64&apos;, os.version: &apos;14.2.1&apos;, java.version: &apos;21.0.1&apos;
+Driver info: org.openqa.selenium.firefox.FirefoxDriver
+Command: [null, newSession {capabilities=[Capabilities {acceptInsecureCerts: true, browserName: firefox, moz:debuggerAddress: true, moz:firefoxOptions: {}}]}]
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:140)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:96)
+	at org.openqa.selenium.remote.ProtocolHandshake.createSession(ProtocolHandshake.java:68)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:163)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:200)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:175)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:602)
+	at org.openqa.selenium.remote.RemoteWebDriver.startSession(RemoteWebDriver.java:236)
+	at org.openqa.selenium.remote.RemoteWebDriver.&lt;init&gt;(RemoteWebDriver.java:163)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:156)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:151)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:132)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:127)
+	at org.openqa.selenium.firefox.FirefoxDriver.&lt;init&gt;(FirefoxDriver.java:112)
+	at com.saucedemo.base.BaseTest.setUp(BaseTest.java:57)
+	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1144)
+	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:642)
+	at java.base/java.lang.Thread.run(Thread.java:1583)
+... Removed 8 stack frames
 </div> <!-- stack-trace -->
                 </div> <!-- method-content -->
               </div> <!-- method -->
@@ -262,7 +370,7 @@
 &lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
 &lt;!DOCTYPE suite SYSTEM &quot;https://testng.org/testng-1.0.dtd&quot;&gt;
 &lt;suite name=&quot;Suite&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot;&gt;
-  &lt;test thread-count=&quot;5&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
+  &lt;test thread-count=&quot;2&quot; parallel=&quot;classes&quot; name=&quot;Test&quot; verbose=&quot;0&quot;&gt;
     &lt;classes&gt;
       &lt;class name=&quot;com.saucedemo.testcases.StandardUserTests&quot;/&gt;
       &lt;class name=&quot;com.saucedemo.testcases.ProblemUserTests&quot;/&gt;
@@ -307,28 +415,28 @@ data.addColumn('string', 'Class');
 data.addColumn('number', 'Time (ms)');
 data.addRows(6);
 data.setCell(0, 0, 0)
-data.setCell(0, 1, 'loginPU')
+data.setCell(0, 1, 'testProblemUser')
 data.setCell(0, 2, 'com.saucedemo.testcases.ProblemUserTests')
 data.setCell(0, 3, 0);
 data.setCell(1, 0, 1)
-data.setCell(1, 1, 'logout')
-data.setCell(1, 2, 'com.saucedemo.testcases.ProblemUserTests')
+data.setCell(1, 1, 'loginSU')
+data.setCell(1, 2, 'com.saucedemo.testcases.StandardUserTests')
 data.setCell(1, 3, 0);
 data.setCell(2, 0, 2)
-data.setCell(2, 1, 'testProblemUser')
-data.setCell(2, 2, 'com.saucedemo.testcases.ProblemUserTests')
+data.setCell(2, 1, 'logout')
+data.setCell(2, 2, 'com.saucedemo.testcases.StandardUserTests')
 data.setCell(2, 3, 0);
 data.setCell(3, 0, 3)
-data.setCell(3, 1, 'loginSU')
-data.setCell(3, 2, 'com.saucedemo.testcases.StandardUserTests')
+data.setCell(3, 1, 'logout')
+data.setCell(3, 2, 'com.saucedemo.testcases.ProblemUserTests')
 data.setCell(3, 3, 0);
 data.setCell(4, 0, 4)
-data.setCell(4, 1, 'logout')
+data.setCell(4, 1, 'testStandardUser')
 data.setCell(4, 2, 'com.saucedemo.testcases.StandardUserTests')
 data.setCell(4, 3, 0);
 data.setCell(5, 0, 5)
-data.setCell(5, 1, 'testStandardUser')
-data.setCell(5, 2, 'com.saucedemo.testcases.StandardUserTests')
+data.setCell(5, 1, 'loginPU')
+data.setCell(5, 2, 'com.saucedemo.testcases.ProblemUserTests')
 data.setCell(5, 3, 0);
 window.suiteTableData['Suite']= { tableData: data, tableDiv: 'times-div-Suite'}
 return data;
@@ -349,18 +457,9 @@ return data;
         </div> <!-- panel -->
         <div panel-name="ignored-methods-Suite" class="panel">
           <div class="main-panel-header rounded-window-top">
-            <span class="header-content">2 ignored methods</span>
+            <span class="header-content">0 ignored methods</span>
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
-            <div class="ignored-class-div">
-              <span class="ignored-class-name">com.saucedemo.testcases.ProblemUserTests</span>
-              <div class="ignored-methods-div">
-                <span class="ignored-method-name">setUp</span>
-                <br/>
-                <span class="ignored-method-name">tearDown</span>
-                <br/>
-              </div> <!-- ignored-methods-div -->
-            </div> <!-- ignored-class-div -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
         <div panel-name="chronological-Suite" class="panel">
@@ -369,47 +468,60 @@ return data;
           </div> <!-- main-panel-header rounded-window-top -->
           <div class="main-panel-content rounded-window-bottom">
             <div class="chronological-class">
-              <div class="chronological-class-name">com.saucedemo.testcases.StandardUserTests</div> <!-- chronological-class-name -->
-              <div class="configuration-suite before">
+              <div class="chronological-class-name">com.saucedemo.testcases.ProblemUserTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
                 <img src="failed.png">
                 </img>
                 <span class="method-name">setUp</span>
                 <span class="method-start">0 ms</span>
-              </div> <!-- configuration-suite before -->
+              </div> <!-- configuration-class before -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.saucedemo.testcases.StandardUserTests</div> <!-- chronological-class-name -->
+              <div class="configuration-class before">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">setUp</span>
+                <span class="method-start">1 ms</span>
+              </div> <!-- configuration-class before -->
               <div class="test-method">
                 <span class="method-name">loginSU(standard_user, secret_sauce, Ravi, Shankar, 500075)</span>
-                <span class="method-start">847 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">testStandardUser(standard_user, secret_sauce, Ravi, Shankar, 500075)</span>
-                <span class="method-start">869 ms</span>
-              </div> <!-- test-method -->
-              <div class="test-method">
-                <span class="method-name">logout</span>
-                <span class="method-start">871 ms</span>
+                <span class="method-start">1124 ms</span>
               </div> <!-- test-method -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.testcases.ProblemUserTests</div> <!-- chronological-class-name -->
               <div class="test-method">
                 <span class="method-name">loginPU(problem_user, secret_sauce)</span>
-                <span class="method-start">886 ms</span>
+                <span class="method-start">1124 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">testProblemUser</span>
-                <span class="method-start">888 ms</span>
+                <span class="method-start">1129 ms</span>
               </div> <!-- test-method -->
               <div class="test-method">
                 <span class="method-name">logout</span>
-                <span class="method-start">893 ms</span>
+                <span class="method-start">1133 ms</span>
               </div> <!-- test-method -->
+              <div class="configuration-class after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">1137 ms</span>
+              </div> <!-- configuration-class after -->
             </div> <!-- chronological-class -->
             <div class="chronological-class">
               <div class="chronological-class-name">com.saucedemo.testcases.StandardUserTests</div> <!-- chronological-class-name -->
-              <div class="configuration-suite after">
+              <div class="test-method">
+                <span class="method-name">testStandardUser(standard_user, secret_sauce, Ravi, Shankar, 500075)</span>
+                <span class="method-start">1144 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">logout</span>
+                <span class="method-start">1146 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-class after">
                 <span class="method-name">tearDown</span>
-                <span class="method-start">917 ms</span>
-              </div> <!-- configuration-suite after -->
+                <span class="method-start">1148 ms</span>
+              </div> <!-- configuration-class after -->
           </div> <!-- main-panel-content rounded-window-bottom -->
         </div> <!-- panel -->
       </div> <!-- main-panel-root -->
