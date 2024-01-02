@@ -8,10 +8,7 @@ import org.openqa.selenium.edge.EdgeOptions;
 import org.openqa.selenium.firefox.FirefoxDriver;
 import org.openqa.selenium.firefox.FirefoxOptions;
 import org.testng.annotations.AfterClass;
-import org.testng.annotations.AfterSuite;
 import org.testng.annotations.BeforeClass;
-import org.testng.annotations.BeforeSuite;
-
 import com.saucedemo.utilities.ConfigFileReader;
 import com.saucedemo.utilities.ElementActions;
 import com.saucedemo.utilities.LoggerUtil;
@@ -21,9 +18,9 @@ import io.github.bonigarcia.wdm.WebDriverManager;
 
 
 public class BaseTest {
-    protected WebDriver _driver;
+    protected WebDriver driver;
     protected ConfigFileReader configFileReader;
-    protected LoggerUtil _loggerUtil;
+    protected LoggerUtil loggerUtil;
     protected String URL;
     protected String browser; 
     protected int waitTime;
@@ -35,8 +32,8 @@ public class BaseTest {
         
         configFileReader = new ConfigFileReader();
         waitHandling = new WaitHandling();
-        _loggerUtil = new LoggerUtil();
-        elementActions = new ElementActions(waitHandling, _loggerUtil);
+        loggerUtil = new LoggerUtil();
+        elementActions = new ElementActions(waitHandling, loggerUtil);
         URL = configFileReader.getURL();
         browser = configFileReader.getBrowser();
         waitTime = configFileReader.getWaitTime();
@@ -45,8 +42,8 @@ public class BaseTest {
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
             options.addArguments("headless");
-            _driver = new ChromeDriver(options);
-            _loggerUtil.info("Chrome Browser Launched");
+            driver = new ChromeDriver(options);
+            loggerUtil.info("Chrome Browser Launched");
         }
         else if(browser.equals("firefox"))
         {
@@ -54,36 +51,36 @@ public class BaseTest {
             FirefoxOptions options = new FirefoxOptions();
             // options.setHeadless(true);
             // options.addArguments("headless");
-            _driver = new FirefoxDriver(options);
+            driver = new FirefoxDriver(options);
             
-            _loggerUtil.info("Firefox Browser Launched");
+            loggerUtil.info("Firefox Browser Launched");
         }
         else if(browser.equals("edge"))
         {
             WebDriverManager.iedriver().setup();
             EdgeOptions options = new EdgeOptions();
             options.addArguments("headless");
-            _driver = new EdgeDriver(options);
-            _loggerUtil.info("Edge Browser Launched");
+            driver = new EdgeDriver(options);
+            loggerUtil.info("Edge Browser Launched");
         }
         else
         {
             WebDriverManager.chromedriver().setup();
             ChromeOptions options = new ChromeOptions();
             options.addArguments("headless");
-            _driver = new ChromeDriver(options);
-            _loggerUtil.info("Deafult Browser Launched");
+            driver = new ChromeDriver(options);
+            loggerUtil.info("Deafult Browser Launched");
         }
             
-        _driver.get(URL);
-        _loggerUtil.info("URL "+URL+" Launched");
-        _driver.manage().window().maximize();
+        driver.get(URL);
+        loggerUtil.info("URL "+URL+" Launched");
+        driver.manage().window().maximize();
 
     }
 
     @AfterClass
     public void tearDown() {
-        _driver.quit();
+        driver.quit();
     }
 
 }

@@ -7,12 +7,12 @@ import com.saucedemo.utilities.ElementActions;
 
 public class LoginPage {
 
-    private WebDriver _driver;
-    private ElementActions _elementActions;
+    private WebDriver driver;
+    private ElementActions elementActions;
 
     public LoginPage(WebDriver driver, ElementActions elementActions) {
-        _driver = driver;
-        _elementActions = elementActions;
+        this.driver = driver;
+        this.elementActions = elementActions;
     }
 
     public LoginPage() {
@@ -27,17 +27,17 @@ public class LoginPage {
             
     
     public void login(String userName, String passWord) {
-        _elementActions.EnterData(_driver.findElement(username),userName);
-        _elementActions.EnterData(_driver.findElement(password),passWord);
-        _elementActions.Click(_driver.findElement(loginButton));
+        elementActions.enterData(driver.findElement(username),userName);
+        elementActions.enterData(driver.findElement(password),passWord);
+        elementActions.click(driver.findElement(loginButton));
     }
 
     public boolean isLoginSuccessful() {
-        return _elementActions.IsDisplayed(_driver.findElement(swagLabsIcon));
+        return elementActions.isDisplayed(driver.findElement(swagLabsIcon));
     }
 
     public boolean isLoginPageLaunched() {
-        return _elementActions.AreDisplayed(_driver.findElements(verifyLoginPage));
+        return elementActions.areDisplayed(driver.findElements(verifyLoginPage));
     }
 
 }
